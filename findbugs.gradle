@@ -8,7 +8,7 @@ findbugs {
   reportLevel = "medium"
 
   sourceSets = [sourceSets.main]
-  excludeFilter = file("$projectDir/build_scripts/quality_assurance/config/findbugs/excludeFilter.xml")
+  excludeFilter = file("$projectDir/build_scripts/code-analysis-tool/config/findbugs/excludeFilter.xml")
 }
 
 tasks.withType(FindBugs) {
